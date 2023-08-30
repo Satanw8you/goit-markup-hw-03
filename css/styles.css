@@ -91,7 +91,7 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    min-width: 496px;
+    max-width: 496px;
 }
 .title-conteiner-button {
     font-family: "Roboto", sans-serif;
@@ -116,12 +116,25 @@ img {
     background-color: #404BBF;
 }
 /* Strategy tasks area */
+.strategy-container {
+    padding: 120px 0;
+}
+.visually-hidden 
+
 .strategy-container-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+.strategy-container-list {
+    display: flex;
+    gap: 24px;
+}
+.strategy-container-item {
+    width: calc((100% - 72px) / 4);
 }
 .strategy-container-text {
     color: #434455;
