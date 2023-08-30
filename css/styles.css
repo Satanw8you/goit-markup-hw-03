@@ -11,8 +11,26 @@ a {
     text-decoration: none;  
     }   
 
+img {
+    display: block;
+}
+
 
 /* Header area */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-conteiner {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-navigation-style {
+    display: flex;
+    align-items: center;
+}
 .main-logo {
     color:  #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -21,9 +39,17 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .main-logo-style {
     color:  #2E2F42; 
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+..header-list-item {
+    padding: 24px 0;
 }
 .header-adress-style {
     font-style: normal;
@@ -48,6 +74,10 @@ a {
 .header-adress-link:hover,
 .header-adress-link:focus {
     color: #404bbf
+}
+.header-adress-list {
+    display: flex;
+    gap: 40px;
 }
 /* First section */
 .title-conteiner {
