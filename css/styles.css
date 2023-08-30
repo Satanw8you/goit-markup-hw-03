@@ -48,9 +48,7 @@ img {
     display: flex;
     gap: 40px;
 }
-.header-list-item {
-    padding: 24px 0;
-}
+
 .header-adress-style {
     font-style: normal;
 }
@@ -60,6 +58,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .header-list-link:hover, 
 .header-list-link:focus {
@@ -80,6 +79,7 @@ img {
     gap: 40px;
 }
 /* First section */
+
 .title-conteiner {
     background-color: #2e2f42;
     padding: 188px 0;
