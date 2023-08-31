@@ -119,7 +119,15 @@ img {
   padding: 120px 0;
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
   overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .strategy-container-title {
   color: #2e2f42;
@@ -246,6 +254,7 @@ img {
 }
 .footer-logo-style {
   color: #f4f4fd;
+  display: inline-block;
 }
 .footer-text {
   color: #f4f4fd;
